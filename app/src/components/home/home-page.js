@@ -4,6 +4,7 @@ import React, { Component } from 'react';
 import { HomeHero } from './hero-area';
 import { CallToAction } from './home-cta';
 import { HomeServiceArea } from './services';
+import { HomeProjectArea } from './projects';
 
 export default class Home extends Component {
     render() {
@@ -13,6 +14,7 @@ export default class Home extends Component {
                 <HomeHero/>
                 <CallToAction/>
                 <HomeServiceArea/>
+                <HomeProjectArea/>
             </div>
         );
     }
