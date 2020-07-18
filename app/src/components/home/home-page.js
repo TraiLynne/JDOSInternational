@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 
 // Components
-import HomeHero from './hero-area';
+import { HomeHero } from './hero-area';
+import { CallToAction } from './home-cta';
 
 export default class Home extends Component {
     render() {
@@ -9,7 +10,8 @@ export default class Home extends Component {
             <div>
                 <h1>Home Page</h1>
                 <HomeHero/>
+                <CallToAction/>
             </div>
         );
     }
-}
+};
