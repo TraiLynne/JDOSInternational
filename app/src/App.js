@@ -9,6 +9,7 @@ import {
 
   // Pages
   Home,
+  About
 } from './components';
 
 function App() {
@@ -19,7 +20,11 @@ function App() {
         exact 
         path='/'
         component={Home}
-        />
+      />
+      <Route
+        path='/about-us'
+        component={About}
+      />
       <Footer/>
     </div>
   );
