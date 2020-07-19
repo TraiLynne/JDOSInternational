@@ -1,9 +1,9 @@
 import React from 'react';
 
-export const HomeHero = () => {
+export const AboutHero = () => {
     return (
         <div>
-            Carousel Placeholder
+            Hero Area Placeholder
         </div>
     )
 }

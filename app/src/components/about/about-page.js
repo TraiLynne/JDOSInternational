@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 // Components
+import { AboutHero } from './hero-area';
 
 
 export default class About extends Component {
@@ -8,6 +9,7 @@ export default class About extends Component {
         return (
             <div>
                 <h1>About Us Page</h1>
+                <AboutHero/>
             </div>
         );
     }
