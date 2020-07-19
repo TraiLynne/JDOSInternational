@@ -4,6 +4,7 @@ import React, { Component } from 'react';
 import { AboutHero } from './hero-area';
 import { Main } from './main-area';
 import { Aside } from './aside';
+import { CustomerPartnerArea } from '../home/partner-customer-area';
 
 
 
@@ -15,6 +16,7 @@ export default class About extends Component {
                 <AboutHero/>
                 <Main/>
                 <Aside/>
+                <CustomerPartnerArea/>
             </div>
         );
     }
