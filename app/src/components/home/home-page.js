@@ -5,6 +5,7 @@ import { HomeHero } from './hero-area';
 import { CallToAction } from './home-cta';
 import { HomeServiceArea } from './services';
 import { HomeProjectArea } from './projects';
+import { CustomerPartnerArea } from './partner-customer-area';
 
 export default class Home extends Component {
     render() {
@@ -15,6 +16,7 @@ export default class Home extends Component {
                 <CallToAction/>
                 <HomeServiceArea/>
                 <HomeProjectArea/>
+                <CustomerPartnerArea/>
             </div>
         );
     }

@@ -1,5 +1,5 @@
 import React from 'react';
-import { projectList } from '../../data/projects';
+import { projectList } from '../../data';
 import { FeaturedProject } from './project-item';
 
 export const HomeProjectArea = () => {
