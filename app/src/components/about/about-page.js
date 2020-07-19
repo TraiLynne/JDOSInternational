@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 
 // Components
 import { AboutHero } from './hero-area';
+import { Main } from './main-area';
+import { Aside } from './aside';
+
 
 
 export default class About extends Component {
@@ -10,6 +13,8 @@ export default class About extends Component {
             <div>
                 <h1>About Us Page</h1>
                 <AboutHero/>
+                <Main/>
+                <Aside/>
             </div>
         );
     }
