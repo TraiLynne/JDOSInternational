@@ -10,7 +10,8 @@ import {
   Home,
   About,
   Service,
-  Career
+  Career,
+  Contact
 } from './components';
 
 function App() {
@@ -35,6 +36,11 @@ function App() {
       <Route
         path='/careers'
         component={Career}
+      />
+
+      <Route
+        path='/contact'
+        component={Contact}
       />
       
       <Footer/>

@@ -5,6 +5,7 @@ import Home from './home/home-page';
 import About from './about/about-page';
 import Service from './services/service-page';
 import Career from './career/career-page'
+import Contact from './contact/contact-page';
 
 export {
     // Fixed
@@ -15,5 +16,6 @@ export {
     Home,
     About,
     Service,
-    Career
+    Career,
+    Contact
 }
