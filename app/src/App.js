@@ -9,7 +9,8 @@ import {
   // Pages
   Home,
   About,
-  Service
+  Service,
+  Career
 } from './components';
 
 function App() {
@@ -29,6 +30,11 @@ function App() {
       <Route
         path='/services'
         component={Service}
+      />
+
+      <Route
+        path='/careers'
+        component={Career}
       />
       
       <Footer/>
