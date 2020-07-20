@@ -11,13 +11,13 @@ export const HomeServiceArea = () => {
                 <Link to='/services/construction-management'>
                     <img src='#' alt='Construction Management'/>
                 </Link>
-                <Link to='/services/facilities-maintenance-management/'>
+                <Link to='/services/facilities-maintenance'>
                     <img src='#' alt='Facilities Maintenance & Management'/>
                 </Link>
-                <Link to='/services/program-project-management'>
+                <Link to='/services/program-project'>
                     <img src='#' alt='Program & Project Management'/>
                 </Link>
-                <Link to='/services/engineering-support-services'>
+                <Link to='/services/engineering-support'>
                     <img src='#' alt='Engineering Admin Support Services'/>
                 </Link>
             </div>
