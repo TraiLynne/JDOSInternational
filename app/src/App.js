@@ -8,7 +8,8 @@ import {
 
   // Pages
   Home,
-  About
+  About,
+  Service
 } from './components';
 
 function App() {
@@ -24,6 +25,12 @@ function App() {
         path='/about-us'
         component={About}
       />
+
+      <Route
+        path='/services'
+        component={Service}
+      />
+      
       <Footer/>
     </div>
   );
