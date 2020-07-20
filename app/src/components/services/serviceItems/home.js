@@ -5,6 +5,8 @@ import { Link } from 'react-router-dom';
 export const Home = () => {
     return (
         <div>
+            <h1>Our Services</h1>
+            <p>J-Dos tailors it’s services to meet the needs of each client group to ensure consistent, superior services at the local level. For more than 22 years, J-Dos has provided complete civil infrastructure and facilities management, as well as other engineering support services for both public and private clients.</p>
             <div>
                 <h2>Construction Management</h2>
                 <Link to='/services/construction-management'>
