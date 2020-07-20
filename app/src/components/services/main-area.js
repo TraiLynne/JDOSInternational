@@ -3,6 +3,7 @@ import { Route } from 'react-router-dom';
 
 import { Home } from './serviceItems/home';
 import { Construction } from './serviceItems/construction';
+import { Engineering } from './serviceItems/engineering';
 
 export const MainArea = () => {
     return (
@@ -15,6 +16,11 @@ export const MainArea = () => {
                 <Route
                     path='/services/construction-management'
                     component={Construction}
+                />
+
+                <Route
+                    path='/services/engineering-support'
+                    component={Engineering}
                 />
         </section>
     )
