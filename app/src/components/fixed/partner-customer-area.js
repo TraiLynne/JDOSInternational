@@ -2,14 +2,21 @@ import React from 'react';
 import { logos } from '../../data'
 
 import { Logo } from './logo';
+import {
+    LogoSection,
+    LogoContainer,
+    Header
+} from '../../styles/customerPartner'
 
 export const CustomerPartnerArea = () => {
     return (
-        <section>
-            <h2>Customers & Partners</h2>
+        <LogoSection>
+            <Header>Customers & Partners</Header>
+            <LogoContainer>
             {
                 logos.map(i => <Logo info={i}/>)
             }
-        </section>
+            </LogoContainer>
+        </LogoSection>
     )
 }

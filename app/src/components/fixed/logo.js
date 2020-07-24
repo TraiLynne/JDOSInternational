@@ -1,9 +1,15 @@
 import React from 'react';
+import {
+    logos
+} from '../../data/customers_partners';
 
-export const Logo = props => {
+import {
+    LogoImg,
+    Header
+} from '../../styles/customerPartner'
+
+export const Logo = (prop) => {
     return (
-        <div>
-            <img src={props.info.logo} alt={props.info.name}/>
-        </div>
+        <LogoImg src={prop.info.logo} alt={prop.info.name}/>
     )
 }

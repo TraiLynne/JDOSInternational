@@ -34,7 +34,7 @@ export const CTA = styled.button`
     width: 100%;
 `
 
-export const ServiceContainer = styled.section`
+export const SectionContainer = styled.section`
     text-align: center;
     padding: 50px 0;
 `
@@ -43,7 +43,7 @@ export const Header = styled.h2`
     text-transform: uppercase;
 `
 
-export const ServiceText = styled.p`
+export const SectionTagline = styled.p`
     color: #b0b0b0
 `
 

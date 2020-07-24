@@ -1,11 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Card, CardTitle, CardText, CardImg, CardImgOverlay } from 'reactstrap';
+import { Card, CardImgOverlay } from 'reactstrap';
 
 import {
     Header,
-    ServiceContainer,
-    ServiceText,
+    SectionContainer,
+    SectionTagline,
     ServiceLinksContainer,
     ServiceLinkImage
 } from '../../styles/home';
@@ -19,9 +19,9 @@ import {
 
 export const HomeServiceArea = () => {
     return (
-        <ServiceContainer>
+        <SectionContainer>
             <Header>Our Services</Header>
-            <ServiceText>Comprehensive engineering and management support services, providing clients with the highest level of quality service for each project, on time and within budget.</ServiceText>
+            <SectionTagline>Comprehensive engineering and management support services, providing clients with the highest level of quality service for each project, on time and within budget.</SectionTagline>
             
             <ServiceLinksContainer>
                 <Link to='/services/construction-management'>
@@ -61,6 +61,6 @@ export const HomeServiceArea = () => {
                     
                 </Link>
             </ServiceLinksContainer>
-        </ServiceContainer>
+        </SectionContainer>
     )
 }

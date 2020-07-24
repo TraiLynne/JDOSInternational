@@ -2,38 +2,48 @@
 //     name: 'string',
 //     logo: '#'
 // }
+import {
+    AMEC,
+    Arcadis,
+    BnC,
+    DCPublicSchools,
+    DGS,
+    GnH,
+    HNTB,
+    Volkert
+} from '../assets';
 
 export const logos = [
     {
         name: 'Arcadis',
-        logo: '#'
+        logo: Arcadis
     },
     {
         name: 'Volkert',
-        logo: '#'
+        logo: Volkert
     },
     {
         name: 'Amec',
-        logo: '#'
+        logo: AMEC
     },
     {
         name: 'HNTB',
-        logo: '#'
+        logo: HNTB
     },
     {
         name: 'DC Public Schools',
-        logo: '#'
+        logo: DCPublicSchools
     },
     {
         name: 'Greeley & Hansen',
-        logo: '#'
+        logo: GnH
     },
     {
         name: 'Brown & Caldwell',
-        logo: '#'
+        logo: BnC
     },
     {
         name: 'DGS',
-        logo: '#'
+        logo: DGS
     }
 ]

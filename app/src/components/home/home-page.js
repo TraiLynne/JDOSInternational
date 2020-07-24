@@ -14,7 +14,7 @@ export default class Home extends Component {
                 <HomeHero/>
                 <CallToAction/>
                 <HomeServiceArea/>
-                <HomeProjectArea/>
+                {/* <HomeProjectArea/> */}
                 <CustomerPartnerArea/>
             </div>
         );

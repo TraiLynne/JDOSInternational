@@ -14,8 +14,26 @@ import Facilities from './services/facilities-3-300x220.jpg';
 import Programs from './services/firestation-1-300x220.jpg';
 import Engineering from './services/JDos-Cape-05-2014--300x200.jpg';
 
+// Logos
+import AMEC from './logos/amec.png';
+import Arcadis from './logos/arcadis.png';
+import BnC from './logos/brownandcaldwell-2.png';
+import DCPublicSchools from './logos/dc_publicschools.png';
+import DGS from './logos/DGS.png';
+import GnH from './logos/greenleyandhansen.png';
+import HNTB from './logos/hntb.png';
+import Volkert from './logos/volkert.png';
+
 export {
     MainLogo,
+    AMEC,
+    Arcadis,
+    BnC,
+    DCPublicSchools,
+    DGS,
+    GnH,
+    HNTB,
+    Volkert,
 
     HomeHero1,
     HomeHero2,
@@ -26,5 +44,5 @@ export {
     ConstructionManagement,
     Facilities,
     Programs,
-    Engineering
+    Engineering,
 };
