@@ -1,26 +1,66 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { Card, CardTitle, CardText, CardImg, CardImgOverlay } from 'reactstrap';
+
+import {
+    Header,
+    ServiceContainer,
+    ServiceText,
+    ServiceLinksContainer,
+    ServiceLinkImage
+} from '../../styles/home';
+
+import {
+    ConstructionManagement,
+    Facilities,
+    Programs,
+    Engineering
+} from '../../assets';
 
 export const HomeServiceArea = () => {
     return (
-        <section>
-            <h2>Our Services</h2>
-            <p>Comprehensive engineering and management support services, providing clients with the highest level of quality service for each project, on time and within budget.</p>
+        <ServiceContainer>
+            <Header>Our Services</Header>
+            <ServiceText>Comprehensive engineering and management support services, providing clients with the highest level of quality service for each project, on time and within budget.</ServiceText>
             
-            <div>
+            <ServiceLinksContainer>
                 <Link to='/services/construction-management'>
-                    <img src='#' alt='Construction Management'/>
+                    <Card inverse>
+                        <ServiceLinkImage width="100%" src={ConstructionManagement}  alt='Construction Management' />
+                        <CardImgOverlay>
+                            <Header>Construction Management</Header>
+                        </CardImgOverlay>
+                    </Card>
                 </Link>
+
+
                 <Link to='/services/facilities-maintenance'>
-                    <img src='#' alt='Facilities Maintenance & Management'/>
+                    <Card inverse>
+                        <ServiceLinkImage width="100%" src={Facilities}  alt='Facilities Maintenance & Management' />
+                        <CardImgOverlay>
+                            <Header>Facilities Maintenance & Management</Header>
+                        </CardImgOverlay>
+                    </Card>
                 </Link>
+
                 <Link to='/services/program-project'>
-                    <img src='#' alt='Program & Project Management'/>
+                    <Card inverse>
+                        <ServiceLinkImage width="100%" src={Programs}  alt='Program & Project Management' />
+                        <CardImgOverlay>
+                            <Header>Program & Project Management</Header>
+                        </CardImgOverlay>
+                    </Card>
                 </Link>
                 <Link to='/services/engineering-support'>
-                    <img src='#' alt='Engineering Admin Support Services'/>
+                    <Card inverse>
+                        <ServiceLinkImage width="100%" src={Engineering}  alt='Engineering Admin Support Services' />
+                        <CardImgOverlay>
+                            <Header>Engineering Admin Support Services</Header>
+                        </CardImgOverlay>
+                    </Card>
+                    
                 </Link>
-            </div>
-        </section>
+            </ServiceLinksContainer>
+        </ServiceContainer>
     )
 }

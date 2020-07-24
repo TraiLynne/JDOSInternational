@@ -1,1 +1,1 @@
-export const ctaFont = 'font-family: \'Lato\', sans-serif;'
+export const fontFamily = 'font-family: \'Lato\', sans-serif;'
