@@ -5,10 +5,14 @@ import HomeHero1 from './hero/home-hero.png';
 import HomeHero2 from './hero/home-hero-1.png';
 import HomeHero3 from './hero/home_hero-2.png';
 
+// Home CTA
+import CTABackground from './house-wire-model-fade-white-1500x1085.png';
 export {
     MainLogo,
 
     HomeHero1,
     HomeHero2,
-    HomeHero3
+    HomeHero3,
+
+    CTABackground
 };
