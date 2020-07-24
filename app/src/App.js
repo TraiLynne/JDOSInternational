@@ -1,6 +1,12 @@
 import React from 'react';
 import { Route } from 'react-router-dom';
-import './App.css';
+
+// Styles
+import {
+  AppContainer
+} from './app-styles';
+
+// Components
 import {
   // Fixed 
   Header,
@@ -16,7 +22,7 @@ import {
 
 function App() {
   return (
-    <div className="App">
+    <AppContainer>
       <Header/>
       <Route 
         exact 
@@ -44,7 +50,7 @@ function App() {
       />
       
       <Footer/>
-    </div>
+    </AppContainer>
   );
 }
 
